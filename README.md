@@ -1,4 +1,4 @@
 # Pokedex
-Its not working yet but should do soon.
+Now fully working.
 
 Used to learn oop
