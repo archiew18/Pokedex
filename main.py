@@ -4,13 +4,13 @@ class Pokemon:
     self.name = name
     self.types = types
     self.description = description
-    self.is_caught == True
+    self.is_caught = is_caught
 
   def speak(self):
-    print(self.name + self.name)
+    print(f"{self.name}, {self.name}!")
   
   def display_details(self):
-    print('Entry number: ' + self.entry + '\n' + 'Name: ' + self.name + '\n' + 'Type: ' + self.types + '\n' + 'Description: ' + self.description)
+    print(f"Entry number: {self.entry} \nName: {self.name} \nType: {self.types} \nDescription: {self.description}")
     if self.is_caught == True:
       print(self.name + ' has already been caught!')
     else:
